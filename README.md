@@ -17,7 +17,8 @@ We'll call the directory that you cloned Context-Aware_Crowd_Counting-pytorch as
  # Training
  1.In "implement.py" make sure to replace all paths used for the dataset in the code with the paths of the dataset in your server.  
  2.Training parameters such as epochs,learning rates, etc can be changed by modifying their values in main().  
- 3.If you are in the cloned directory use command ``` python3 implement.py```, otherwise use the relative/ absolute path of "implement.py" and run it.
+ 3.If you are in the cloned directory use command ``` python3 implement.py```, otherwise use the relative/ absolute path of "implement.py" and run it.  
+ 4. './checkpoints' is created to keep track of previous epoch weights, in the event that program stops execution.
 # Testing
 1. Test will run automatically in "implement.py".
 2. You can modify the index of image which you want to display when calling def estimate_density_map(img_root, gt_dmap_root, index) using the index parameter.
