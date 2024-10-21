@@ -23,4 +23,6 @@ We'll call the directory where you cloned Context-Aware_Crowd_Counting-pytorch a
 # Testing
 1. Test will run automatically in "implement.py".
 2. You can modify the index of image which you want to display when calling def estimate_density_map(img_root, gt_dmap_root, index) using the index parameter.
+# Other Notes
+Due to limitations in computation resources of Kaggle, only 360/1000 epochs could be trained for Part A and 125/1000 epochs could be trained for Part B. However results came very close to results of paper, considering that test mae error changed from 400->66 for Part A and 80->13 for Part B
 
