@@ -15,7 +15,7 @@ We'll call the directory where you cloned Context-Aware_Crowd_Counting-pytorch a
  Note: In the ShanghaiTech A Dataset there is a dataset labelled part_B in it, however it's Ground truth maps have no been pre-processed in a suitable format to be taken as input for the code.  
  3.Unzip/ Extract the Datasets before use.  
  # Training
- 1.In "implement.py" make sure to replace all paths used for the dataset in the code with the paths of the dataset in your server.  
+ 1.In "implement.py" make sure to replace all paths used for the dataset in the code with the paths of the dataset in your server. You may refer to the comments in the main() function.  
  2.Training parameters such as epochs,learning rates, etc can be changed by modifying their values in main().  
  3.If you are in the cloned directory use command ``` python3 implement.py```, otherwise use the relative/ absolute path of "implement.py" and run it.  
  4. './checkpoints' is created to keep track of previous epoch weights, in the event that program stops execution.
