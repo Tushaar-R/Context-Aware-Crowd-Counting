@@ -8,7 +8,7 @@ This is an implementation of the CVPR 2019 paper "Context-Aware Crowd Counting".
 4.Install tqdm  
 ``` pip install tqdm```  
 5.Clone this repository  ```git clone https://github.com/Tushaar-R/Context-Aware-Crowd-Counting.git ```  
-We'll call the directory that you cloned Context-Aware_Crowd_Counting-pytorch as ROOT.  
+We'll call the directory where you cloned Context-Aware_Crowd_Counting-pytorch as ROOT.  
  # Data Setup
  1.Download ShanghaiTech A Dataset from [ShanghaiTech A](https://www.kaggle.com/datasets/tushaar1ranganathan/shanghaitech-zip)  Use the folder labelled part_A
  2.Download ShanghaiTech B Dataset from [ShanghaiTech B](https://www.kaggle.com/datasets/tushaar1ranganathan/shanghai-tech-partb/data)  
